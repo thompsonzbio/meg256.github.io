@@ -12,12 +12,6 @@
         <title>sample PGCOE splash</title>
 
 	<style>
-        #outer {
-            margin: 0 auto; /*center*/
-            width:200px;
-            background-color:red; /*just to display the example*/
-        }
-
         #inner {
             /*move the whole container 50px to the left side*/
             margin-left:-50px; 
@@ -50,98 +44,96 @@
             	</div>
         </nav>
 
-	<div id="outer">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="smallhead">
+				<p>The New England Pathogen Genomics Center of Excellence was established in 2022 as a CDC-funded collaboration between the Massachusetts Department of Public Health and key academic and industry partners throughout the Northeastern United States. The NE PGCoE is one of five regional Centers of Excellence for pathogen genomics across the United States and aims to: increase communication between academic and public health labs, develop tools and resources that can be used to combat the ever-present threat of pathogens, and improve our ability to mount a coordinated, multi-partner response to the next epidemic or pandemic.</p>
+				<p><a class="off" href="https://github.com/CDCgov/AMD-PGCoE">CDC AMD-PGCOE Github</a></p>
+				<p><a class="off" href="https://github.com/northwest-pgcoe">NW PGCoE Github</a></p>
+				<p><a class="off" href="https://www.nepgcoe.org">NE PGCoE dev website</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="spacer"></div>
+	
+	<div id="inner">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="smallhead">
-				      	<p>The New England Pathogen Genomics Center of Excellence was established in 2022 as a CDC-funded collaboration between the Massachusetts Department of Public Health and key academic and industry partners throughout the Northeastern United States. The NE PGCoE is one of five regional Centers of Excellence for pathogen genomics across the United States and aims to: increase communication between academic and public health labs, develop tools and resources that can be used to combat the ever-present threat of pathogens, and improve our ability to mount a coordinated, multi-partner response to the next epidemic or pandemic.</p>
-					<p><a class="off" href="https://github.com/CDCgov/AMD-PGCoE">CDC AMD-PGCOE Github</a></p>
-				      	<p><a class="off" href="https://github.com/northwest-pgcoe">NW PGCoE Github</a></p>
-					<p><a class="off" href="https://www.nepgcoe.org">NE PGCoE dev website</a></p>
+				<div class="head">
+					<h3><a class="off" href="/projects/">Active projects</a></h3>
+				</div>
+				<div class="spacer"></div>
+				<div class="pad-left">
+					<div class="note">
+						<a class="off" href="https://github.com/UPHL-BioNGS/Cecret/wiki"> Cecret - Consensus Extraction and Contig Reconstruction using Enriched libraries against a Template (CECRET) </a>
+						<p>Cecret was originally developed by @erinyoung at the Utah Public Health Laborotory for SARS-COV-2 sequencing with the artic/Illumina hybrid library prep workflow for MiSeq data</p>																					
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Contact: <a class="off" href="https://github.com/erinyoung">Erin Young</a>
+					</div>
+					
+					<div class="bigspacer"></div>
+					
+					<div class="note">
+						<a class="off" href="https://github.com/blab/flu-forecasting"> Bedford Lab Flu Forecasting - Integrating genotypes and phenotypes improves long-term forecasts of seasonal influenza A/H3N2 evolution </a>
+						<p><a class="off" href="https://doi.org/10.7554/eLife.60067"> DOI: 10.7554/eLife.60067</a></p>																					
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Contact: <a class="off" href="https://github.com/huddlej">J Huddle</a>
+					</div>
+					
+					<div class="bigspacer"></div>
+	
+					<div class="note">
+						<a class="off" href="https://github.com/meg256/MAnx"> MAnx - Microbial Assembler quaNtitative eXploration </a>
+						<p>Snakemake workflow for benchmarking multiple trim/assembly methods for FDA-ARGOS isolates and visualizing/statistically testing the outcomes</p>																					
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Contact: <a class="off" href="https://github.com/meg256">Mary Godec</a>
+					</div>
 				</div>
 			</div>
 		</div>
 		
-		<div class="spacer"></div>
 		
-		<div id="inner">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="head">
-						<h3><a class="off" href="/projects/">Active projects</a></h3>
+		<div class="row">
+			<div class="col-lg-3 reduced-gutter">
+				<div class="pad-left">
+					<div class="note">
+						<a class="off" href="https://www.nepgcoe.org"> PLACEHOLDER TITLE2 - PLACEHOLDER DESC2 </a>
 					</div>
-					<div class="spacer"></div>
-					<div class="pad-left">
-			            		<div class="note">
-			                		<a class="off" href="https://github.com/UPHL-BioNGS/Cecret/wiki"> Cecret - Consensus Extraction and Contig Reconstruction using Enriched libraries against a Template (CECRET) </a>
-							<p>Cecret was originally developed by @erinyoung at the Utah Public Health Laborotory for SARS-COV-2 sequencing with the artic/Illumina hybrid library prep workflow for MiSeq data</p>																					
-			            		</div>
-				            	<div class="smallspacer"></div>
-				            	<div class="smallnote">
-				                	Contact: <a class="off" href="https://github.com/erinyoung">Erin Young</a>
-				            	</div>
-						
-				            	<div class="bigspacer"></div>
-						
-						<div class="note">
-			                		<a class="off" href="https://github.com/blab/flu-forecasting"> Bedford Lab Flu Forecasting - Integrating genotypes and phenotypes improves long-term forecasts of seasonal influenza A/H3N2 evolution </a>
-							<p><a class="off" href="https://doi.org/10.7554/eLife.60067"> DOI: 10.7554/eLife.60067</a></p>																					
-			            		</div>
-				            	<div class="smallspacer"></div>
-				            	<div class="smallnote">
-				                	Contact: <a class="off" href="https://github.com/huddlej">J Huddle</a>
-				            	</div>
-						
-						<div class="bigspacer"></div>
-		
-						<div class="note">
-			                		<a class="off" href="https://github.com/meg256/MAnx"> MAnx - Microbial Assembler quaNtitative eXploration </a>
-							<p>Snakemake workflow for benchmarking multiple trim/assembly methods for FDA-ARGOS isolates and visualizing/statistically testing the outcomes</p>																					
-			            		</div>
-				            	<div class="smallspacer"></div>
-				            	<div class="smallnote">
-				                	Contact: <a class="off" href="https://github.com/meg256">Mary Godec</a>
-				            	</div>
-			        	</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Commitlink <a class="off" href="https://www.nepgcoe.org">COMMITLINK2</a>
+						By <a class="off" href="https://www.nepgcoe.org">AUTHORNAME2</a>
+					</div>
+					<div class="bigspacer"></div>
 				</div>
 			</div>
-			
-			
-			<div class="row">
-				<div class="col-lg-3 reduced-gutter">
-			        	<div class="pad-left">
-			            		<div class="note">
-			                		<a class="off" href="https://www.nepgcoe.org"> PLACEHOLDER TITLE2 - PLACEHOLDER DESC2 </a>
-			            		</div>
-				            	<div class="smallspacer"></div>
-				            	<div class="smallnote">
-				                	Commitlink <a class="off" href="https://www.nepgcoe.org">COMMITLINK2</a>
-				                	By <a class="off" href="https://www.nepgcoe.org">AUTHORNAME2</a>
-				            	</div>
-				            	<div class="bigspacer"></div>
-			        	</div>
-			    	</div>
+		</div>
+	
+		<div class="spacer"></div>
+		    
+		<div class="row">
+			<div class="head">
+				<h3>PDF embedded</h3>
+				<object data="Genomics%20Working%20Group.pdf" width="1000" height="1000" type='application/pdf'></object>
 			</div>
+		</div>
+		    
+		<div class="bigspacer"></div>
 		
-			<div class="spacer"></div>
-			    
-			<div class="row">
-				<div class="head">
-					<h3>PDF embedded</h3>
-					<object data="Genomics%20Working%20Group.pdf" width="1000" height="1000" type='application/pdf'></object>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
+					<a class="off" href="https://www.nepgcoe.org">
+					<img width=185 src="logo-helix-b771726b.png">
+					</a>
 				</div>
-			</div>
-			    
-			<div class="bigspacer"></div>
-			
-			<div class="row">
-				<div class="col-lg-12">
-				    	<div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
-				      		<a class="off" href="https://www.nepgcoe.org">
-				        	<img width=185 src="logo-helix-b771726b.png">
-				      		</a>
-				    	</div>
-			  	</div>
 			</div>
 		</div>
 	</div>
